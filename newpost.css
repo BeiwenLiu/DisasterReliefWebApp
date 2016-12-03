@@ -1,0 +1,293 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding:0;
+  max-width:100%;
+  overflow-x: hidden;
+  background-color:#F5F5F5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eeb211;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #262626;
+    color:white;
+}
+
+.active {
+    background-color: #545454;
+    color:white;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: robotoreg;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+#nav {
+  height:5%;
+  width:100%;
+  background-color: #262626;
+}
+
+#footer {
+  background-color:#eeb211;
+  background-image: url("../images/footer.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:50px;
+    text-align: center;
+}
+
+#footerPic {
+  width:12%;
+  height:12%;
+}
+
+#navBar {
+  width:100%;
+  height:40px;
+  color:black;
+  background-color:#eeb211;
+  font-family:robotoreg;
+}
+
+#newpost {
+  margin:auto;
+  /*margin-top:40px;*/
+  width:650px;
+  height:800px;
+  border-radius:12px;
+  background-color:white;
+  text-align: center;
+  margin-bottom:5%;
+}
+
+#newpost1 {
+  margin:auto;
+  /*margin-top:40px;*/
+  width:650px;
+  height:650px;
+  border-radius:12px;
+  background-color:white;
+  text-align: center;
+  margin-bottom:5%;
+}
+
+.inputName {
+  width:100%;
+  display:block;
+  outline:none;
+  border-radius:2px;
+  padding:10px;
+  border:1px solid #C4C4C4;
+}
+
+#qualdesc {
+
+}
+
+.block {
+  display:block;
+  font-family:roboto;
+  margin-top: 10px;
+}
+
+#headerdiv {
+  height:100px;
+  width:100%;
+  border-radius:10px 10px 0px 0px;
+  background: linear-gradient(#157793, #146a84,#157793);
+  color:#ddfaf7;
+  text-align:center;
+  padding:25px;
+}
+
+#withinHeaderDiv {
+  font-size:40px;
+  font-family:roboto;
+}
+
+.circle {
+  float:left;
+  margin-top:30px;
+  margin-left:50px;
+  text-align: center;
+  color:white;
+  line-height: 30px;
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  background-color:#4ba3cd;
+}
+
+.indicator {
+  float:left;
+  margin-top:30px;
+  width:200px;
+  font-size:20px;
+  color:#496071;
+  font-family:robotoreg;
+}
+
+.innerForm {
+  text-align:left;
+  height:300px;
+  width:83%;
+  margin:auto;
+  background-color:#f4f6f5;
+  display:inline-block;
+  border-radius:10px;
+  padding:20px;
+}
+
+.innerForm12 {
+  text-align:left;
+  height:350px;
+  width:83%;
+  margin:auto;
+  background-color:#f4f6f5;
+  display:inline-block;
+  border-radius:10px;
+  padding:20px;
+}
+
+.row {
+  height:80px;
+  width:100%;
+}
+
+.inputNameDiv {
+  width:45%;
+  outline:none;
+  border-radius:2px;
+  padding:5px;
+  border:1px solid #C4C4C4;
+}
+
+.inputNameDiv2 {
+  width:45%;
+  outline:none;
+  border-radius:2px;
+  padding:5px;
+  border:1px solid #C4C4C4;
+  margin-left:9%;
+  margin-bottom:3%;
+}
+
+.inputNameDiv3 {
+  outline:none;
+  border-radius:2px;
+  border:1px solid #C4C4C4;
+  margin-right:2%;
+}
+
+.inputNameDiv4 {
+  outline:none;
+  border-radius:2px;
+  border:1px solid #C4C4C4;
+}
+
+.inputNameDiv5 {
+  width:100%;
+  outline:none;
+  border-radius:2px;
+  padding:5px;
+  border:1px solid #C4C4C4;
+}
+
+.blockDiv {
+  float:left;
+  width:30%;
+  font-family:roboto;
+}
+
+.blockDiv2 {
+  margin-left:55%;
+}
+
+.block1 {
+  font-size:20px;
+  font-family:roboto;
+  width:100%;
+  color:#496071;
+}
+
+.innerForm2 {
+  text-align:left;
+  height:170px;
+  width:83%;
+  margin:auto;
+  background-color:#f4f6f5;
+  display:inline-block;
+  border-radius:10px;
+  padding:20px;
+}
+
+.innerForm1 {
+  text-align:left;
+  height:120px;
+  width:83%;
+  margin:auto;
+  background-color:#f4f6f5;
+  display:inline-block;
+  border-radius:10px;
+  padding:20px;
+}
+
+.container {
+  margin-top:2%;
+  width:100%;
+}
+
+.blockDiv5{
+  font-size:13px;
+  font-family:roboto;
+}
+
+.inputNameDiv6 {
+  border-radius:10px;
+  padding:5px;
+  border:1px solid #C4C4C4;
+  background-color: #4ba3cd;
+  color:white;
+  margin-top:5%;
+  width:80%;
+  transition:.4s;
+}
+
+.inputNameDiv6:hover {
+  transition: all .4s ease-in;
+  background-color:#142951;
+}
